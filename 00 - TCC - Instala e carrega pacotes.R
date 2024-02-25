@@ -29,3 +29,5 @@ length(stopwords(source = "stopwords-iso"))
 #devtools::install_github('quanteda/spacyr')
 spacy_install()
 library(spacyr)
+
+library(tm)
