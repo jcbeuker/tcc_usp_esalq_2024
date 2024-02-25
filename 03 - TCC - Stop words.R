@@ -8,9 +8,10 @@
 # Removing stop words
 #
 # Using the stop word list Snowball
-text <- catalogoVulnerabilidades$shortDescription 
+#text <- catalogoVulnerabilidades$shortDescription 
+text <- shortDescription_hyphen
 
-nrows_sw <- (nrow(catalogoVulnerabilidades))
+nrows_sw <- (nrow(catalogoVulnerabilidades_treino))
 
 tx_df <- tibble(line = 1:nrows_sw, text = text)
 
