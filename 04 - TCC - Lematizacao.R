@@ -15,3 +15,5 @@ tx_df %>%
   ggplot(aes(n, fct_reorder(lemma, n))) +
   geom_col() +
   labs(x = "Frequency", y = NULL)
+
+
